@@ -75,3 +75,11 @@ ul li a:hover{
     color:bisque;
 }
 
+.footer{
+    background-color: black;
+    visibility: hidden;
+}
+
+.link{
+    text-decoration: none;
+}
