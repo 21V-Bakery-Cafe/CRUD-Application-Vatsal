@@ -70,26 +70,26 @@ hr{
 }
 </style>
 
-<head> 
-   <!--  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-</head>
-
 <body>
 
 <form style="border:1px solid #fff">
   <div class="container">
-    <h1>Log In</h1>
+    <h1>Sign Up</h1>
     <hr>
 
+    <input type="text" class="input-box" placeholder="First name" name="firstname" required>
+    <input type="text" class="input-box" placeholder="Last name" name="lastname" required>
+    <input type="text" class="input-box" placeholder="Mobile number" name="mobileno" required>
     <input type="text" class="input-box" placeholder="Enter Email" name="email" required>
     <input type="password" class="input-box" placeholder="Enter Password" name="psw" required>
+    <input type="password" class="input-box" placeholder="Re-enter Password" name="psw-Re-enter" required>
     
-    <button type="button" class="btn btn-dark">Log In</button>
+    <p>By creating an account you agree to our <a href="#" style="color:black">Terms & Privacy</a>.</p>
+    
+    <button type="button" class="btn btn-dark">Sign Up</button>
     <hr>
     
-    <p><a href="#" style="color:black">Forgot password? </a></p>
+    <p>Already have an account? </p><button type="button" class="btn btn-dark">Login</button>
 
   </div>
 </form>
